@@ -1,0 +1,568 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'newArray':  the readable size is '(unsigned int)*144+4' bytes, but 'SIZE' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 5,
+                  "endLine": 57,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ElementPlus@@YAXAAPAUdeal@@AAHU1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'newArray' is a 144 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'newArray', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'deal::priority' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 1,
+                  "endLine": 14,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0deal@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "deal::priority"
+          }
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'newArray':  the readable size is '(unsigned int)*144+4' bytes, but '288' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                },
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 9,
+                  "endLine": 78,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ElementMinus@@YAXAAPAUdeal@@AAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'newArray' is a 144 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<SIZE')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<SIZE')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'deal::=' (declared on line 14)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'newArray', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30038.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "D:\\vs\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00DAC1C0 -il C:\\Users\\zvuk\\AppData\\Local\\Temp\\_CL_a4a953dfast -typedil -f Test.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930038 -D_MSC_BUILD=1 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\Test.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\zvuk\\source\\repos\\testing -analyze:rulesetdirectory ;D:\\vs\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\vs\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\vs\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -external:I D:\\vs\\VC\\Tools\\MSVC\\14.29.30037\\include -I D:\\vs\\VC\\Tools\\MSVC\\14.29.30037\\include -external:I D:\\vs\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I D:\\vs\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -external:I D:\\vs\\VC\\Auxiliary\\VS\\include -I D:\\vs\\VC\\Auxiliary\\VS\\include -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\zvuk\\source\\repos\\testing\\Include\\um -I C:\\Users\\zvuk\\source\\repos\\testing\\Include\\um -I D:\\vs\\VC\\Tools\\MSVC\\14.29.30037\\include -I D:\\vs\\VC\\Tools\\MSVC\\14.29.30037\\atlmfc\\include -I D:\\vs\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\zvuk\\source\\repos\\testing\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/zvuk/source/repos/testing/Test.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "f6a518b2314c5c15a45a465290eb918a"
+          }
+        }
+      ]
+    }
+  ]
+}
